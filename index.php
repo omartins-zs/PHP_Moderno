@@ -29,7 +29,7 @@ session_start();
     ?>
     <p>Seu Nome: <input type="text" name="nome" /></p>
     <p>Sua Idade: <input type="text" name="idade" /></p>
-    <p><input type="submit" value="Enviar dados do competidor" /></p>
+    <p><input type="submit" value="Enviar Dados do competidor" /></p>
   </form>
 </body>
 
