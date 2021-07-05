@@ -46,7 +46,7 @@ if ($idade >= 6 && $idade <= 12) {
     }
 } else if ($idade >= 13 && $idade <= 18) {
     for ($i = 0; $i <= count($categorias); $i++) {
-        if ($categorias[$i] == 'Adolescente') {
+        if ($categorias[$i] == 'Adolescentes') {
             $_SESSION['mensagem de sucesso'] = "O Nadador " .  $nome .  " compete na categoria" .  $categorias[$i];
             header('Location: index.php');
             return;
